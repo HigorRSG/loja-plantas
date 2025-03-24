@@ -1,0 +1,98 @@
+@media screen and (max-width: 425px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    .menu{
+        background-color: var(--cor-primaria);
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        height: 80px;
+    }
+    
+    .menu_item{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        font-size: 0.8rem; 
+        font-family: var(--fonte-secundaria);
+    }
+    
+    .menu_item:hover{
+        color: var(--cor-secundaria);
+    }
+    
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    
+    .conteudo_permanente{
+        background-color: var(--cor-secundaria);
+        color: var(--cor-primaria);
+        text-align: center;
+        padding: 5% 0;
+    }
+    
+    .conteudo_permanente h1{
+        font-size: 1.25rem; 
+        font-family: var(--fonte-principal);
+        margin-bottom: 20px;
+    }
+    
+    .conteudo_permanente p{
+        font-size: 1.0rem; 
+        font-family: var(--fonte-secundaria);
+    }
+    
+    .conteudo_principal{
+        margin: 10% 23.5%;
+        flex: 1;
+    }
+    
+    .lista_produtos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex: 1;
+    }
+    
+    .produto_item{
+        list-style-type: none;
+        color: var(--cor-primaria);
+        font-size: 0.8rem;
+        font-family: var(--fonte-secundaria);
+        text-align: center;
+        width: 30%;
+        max-width: 200px;
+    }
+    
+    .produto_item img{
+        width: 100%;
+        height: 80%;
+        border-radius: 8px;
+    }
+    
+    .rodape{
+        background-color: var(--cor-primaria);
+        color: white;
+        padding: 3%;
+        text-align: center;
+        font-size: 1.0rem; 
+        font-family: var(--fonte-secundaria);
+    }
+    
+    .rodape_gratidao{
+        margin-bottom: 30px;
+    }
+    
+}
